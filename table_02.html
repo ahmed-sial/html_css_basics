@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+
+	<body>
+		<h1> Basic HTML form</h1>
+		<form>
+			<label for="user-name">Username: </label>
+			<input type="text" id="user-name" name="userName" placeholder="Enter your name..." />
+			<br />
+			<br />
+			<label for="user-password">Password: </label>
+			<input type="password" id="user-password" name="userPassword" placeholder="Enter your password..." />
+			<br />
+			<br />
+			<label for="user-city">City: </label>
+			<input type="text" id="user-city" name="userCity" placeholder="Enter your present city..." />
+			<br />
+			<br />
+			<label for="user-web-server">Web Server: </label>
+			<select>
+				<option value="">--Choose a server--</option>
+				<option value="apache">Apache Tomcat</option>
+				<option value="litespeed">LiteSpeed Server</option>
+			</select>
+			<br />
+			<br />
+			<label for="user-role-heading">Please specify your role: </label>
+
+			<br />
+			<label for="user-role-admin">Admin</label>
+			<input type="radio" id="user-role-admin" name="userRole" />
+			<br />
+
+			<label for="user-role-engineer">Engineer</label>
+			<input type="radio" id="user-role-engineer" name="userRole" />
+			<br />
+
+			<label for="user-role-manager">Manager</label>
+			<input type="radio" id="user-role-manager" name="userRole" />
+			<br />
+
+			<label for="user-role-guest">Guest</label>
+			<input type="radio" id="user-role-guest" name="userRole" />
+			<br />
+			<input type="submit" value="Login" />
+			<input type="submit" value="Reset" />
+		</form>
+	</body>
+
+</html>
